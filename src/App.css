@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 238, 215);
+    margin: 0;
+    background-color: aqua;
+}
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+}
+.main{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    border: 2px solid rgb(16, 7, 7);
+    /* background-color: brown; */
+    /* height: 100vh; */
+}
+
+
+
+.expense__items{
+    /* border :2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(249, 248, 248);
+    margin:1rem;
+    /* padding: 0.rem; */
+    background-color: rgba(180, 220, 238, 0.496);
+    
+
+    border-radius:20px;
+}
+.expense__items h3{
+    /* padding:0.2em; */
+    border-radius: 6%;
+    /* background-color: rgba(240, 85, 150, 0.381); */
+    padding: 10px;
+    /* border:1px solid white; */
+
+}
+.expense_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:3rem;
+    font-size:1.6em;
+    font-weight: 700;
+    color:rgb(255, 249, 249);
+    margin:-4px;
+    /* background-color: yellow; */
+}
+.expense_item .date{
+    background-color: rgb(6, 1, 22);
+    /* padding:  0 rem 1rem; */
+    padding:.5rem;
+    min-width: 100px;
+    /* padding-right: rem; */
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left:1rem;
+    margin-top:.5rem;
+    margin-bottom: .5rem;
+    border: 1px solid white;
+    /* box-shadow: 2px 2px white; */
+}
+
+.expense_description{
+    color:rgb(237, 246, 246);
+   font-size:1.5rem;
+   background-color: rgb(149, 31, 102);
+   padding: 1rem;
+   border-radius:6%;
+   cursor: pointer;
+    
+
+}
+.expense_day{
+    font-size:1.5rem;
+    /* color:black; */
+    font-weight: 900;
+}
+
+
+.expensemain_{
+    /* border: 2px solid/ rgb(230, 8, 8); */
+    width: 50rem;
+    max-width: 95%;
+    height: 500px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(1, 4, 15);
+    
+
+}
+.card{
+    border-radius: 12px;
+    box-shadow: 0 1px 3px 5px rgb(253, 250, 250);
+}
