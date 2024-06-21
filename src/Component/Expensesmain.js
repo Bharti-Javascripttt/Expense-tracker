@@ -2,9 +2,15 @@ import React from 'react'
 import '../App.css'
 import ExpenseItem from './ExpenseItem'
 
+
+
+
 function Expensesmain(props) {
   return (
+
     <div className='expensemain_'>
+      
+
         <ExpenseItem 
             title={props.item[0].title}
             date={props.item[0].date}
